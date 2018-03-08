@@ -1,0 +1,12 @@
+[ 2018-01-17T21:54:33+08:00 ] 61.129.6.147 /Public/admin/assets/font/fontawesome-webfont.ttf?v=3.2.1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-17T21:54:34+08:00 ] 61.129.6.147 /Public/admin/assets/font/fontawesome-webfont.svg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+ERR: 无法加载模块:Public
+

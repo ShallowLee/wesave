@@ -1,0 +1,18 @@
+[ 2018-01-08T12:00:54+08:00 ] 36.27.47.187 /wesave/index.php/poofull/product/classify/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+ERR: 无法加载模块:Wesave
+
+[ 2018-01-08T12:01:01+08:00 ] 36.27.47.187 /wesave/index.php/poofull/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Wesave
+
+[ 2018-01-08T12:01:06+08:00 ] 36.27.47.187 /wesave/index.php/poofull/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+ERR: 无法加载模块:Wesave
+

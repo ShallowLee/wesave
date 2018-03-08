@@ -1,0 +1,27 @@
+[ 2018-01-06T23:21:37+08:00 ] 101.47.19.176 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `web` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: domain /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: domain /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: domain /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+

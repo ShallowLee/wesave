@@ -1,0 +1,1378 @@
+[ 2018-01-05T13:20:49+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0009s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:20:49+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:20:57+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:21:00+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:21:02+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:21:03+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:21:03+08:00 ] 183.128.232.74 /Api/User/orderList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: D方法实例化没找到模型类Api\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+NOTIC: D方法实例化没找到模型类Home\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+
+[ 2018-01-05T13:21:04+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:21:06+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:21:06+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:21:08+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:21:08+08:00 ] 183.128.232.74 /Api/product/productList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+NOTIC: [2048] Declaration of Api\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/wwwroot/default/wesave/App/Api/Controller/ProductController.class.php 第 3 行.
+NOTIC: D方法实例化没找到模型类Api\Model\ProductModel
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) /data/wwwroot/default/wesave/App/Home/Model/ProductModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 1  [ RunTime:0.0001s ]
+
+[ 2018-01-05T13:21:10+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0005s ]
+
+[ 2018-01-05T13:21:10+08:00 ] 183.128.232.74 /Api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0003s ]
+
+[ 2018-01-05T14:33:48+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0002s ]
+
+[ 2018-01-05T14:33:48+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T14:34:13+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T14:34:17+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T14:34:17+08:00 ] 183.128.232.74 /Api/User/orderList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: D方法实例化没找到模型类Api\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+NOTIC: D方法实例化没找到模型类Home\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+
+[ 2018-01-05T14:34:23+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T14:34:25+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0002s ]
+
+[ 2018-01-05T14:34:25+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T14:34:26+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0005s ]
+
+[ 2018-01-05T14:34:26+08:00 ] 183.128.232.74 /Api/product/productList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2048] Declaration of Api\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/wwwroot/default/wesave/App/Api/Controller/ProductController.class.php 第 3 行.
+NOTIC: D方法实例化没找到模型类Api\Model\ProductModel
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) /data/wwwroot/default/wesave/App/Home/Model/ProductModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 1  [ RunTime:0.0001s ]
+
+[ 2018-01-05T14:34:55+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0002s ]
+
+[ 2018-01-05T14:34:55+08:00 ] 183.128.232.74 /Api/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0004s ]
+
+[ 2018-01-05T14:37:11+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0002s ]
+
+[ 2018-01-05T14:37:11+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T14:37:13+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T14:37:16+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0008s ]
+
+[ 2018-01-05T14:37:16+08:00 ] 183.128.232.74 /Api/User/orderList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: D方法实例化没找到模型类Api\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+NOTIC: D方法实例化没找到模型类Home\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+
+[ 2018-01-05T14:38:30+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T14:38:37+08:00 ] 183.128.232.74 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0009s ]
+
+[ 2018-01-05T14:38:37+08:00 ] 183.128.232.74 /Api/User/orderList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+NOTIC: D方法实例化没找到模型类Api\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+NOTIC: D方法实例化没找到模型类Home\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+
+[ 2018-01-05T16:08:06+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:08:06+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:08:16+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:08:20+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:08:22+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:08:29+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:08:29+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:08:48+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:08:48+08:00 ] 223.104.17.218 /Api/product/productList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [2048] Declaration of Api\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/wwwroot/default/wesave/App/Api/Controller/ProductController.class.php 第 3 行.
+NOTIC: D方法实例化没找到模型类Api\Model\ProductModel
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) /data/wwwroot/default/wesave/App/Home/Model/ProductModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 1  [ RunTime:0.0008s ]
+
+[ 2018-01-05T16:09:03+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:03+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:08+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:08+08:00 ] 223.104.17.218 /Api/product/productList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+NOTIC: [2048] Declaration of Api\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/wwwroot/default/wesave/App/Api/Controller/ProductController.class.php 第 3 行.
+NOTIC: D方法实例化没找到模型类Api\Model\ProductModel
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) /data/wwwroot/default/wesave/App/Home/Model/ProductModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-05T16:09:24+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:24+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:25+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:25+08:00 ] 223.104.17.218 /Api/product/productList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+NOTIC: [2048] Declaration of Api\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/wwwroot/default/wesave/App/Api/Controller/ProductController.class.php 第 3 行.
+NOTIC: D方法实例化没找到模型类Api\Model\ProductModel
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) /data/wwwroot/default/wesave/App/Home/Model/ProductModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 1  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:27+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:27+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:29+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:32+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:32+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:43+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:43+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:44+08:00 ] 223.104.17.218 /Api/product/productList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+NOTIC: [2048] Declaration of Api\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/wwwroot/default/wesave/App/Api/Controller/ProductController.class.php 第 3 行.
+NOTIC: D方法实例化没找到模型类Api\Model\ProductModel
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) /data/wwwroot/default/wesave/App/Home/Model/ProductModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 1  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:44+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:49+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:09:49+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0003s ]
+
+[ 2018-01-05T16:16:40+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:16:40+08:00 ] 223.104.17.218 /Api/product/productList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [2048] Declaration of Api\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/wwwroot/default/wesave/App/Api/Controller/ProductController.class.php 第 3 行.
+NOTIC: D方法实例化没找到模型类Api\Model\ProductModel
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) /data/wwwroot/default/wesave/App/Home/Model/ProductModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 1  [ RunTime:0.0006s ]
+
+[ 2018-01-05T16:16:50+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0006s ]
+
+[ 2018-01-05T16:16:50+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0004s ]
+
+[ 2018-01-05T16:16:52+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:16:54+08:00 ] 223.104.17.218 /Api/User/orderList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: D方法实例化没找到模型类Api\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+NOTIC: D方法实例化没找到模型类Home\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+
+[ 2018-01-05T16:16:54+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:16:57+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:16:57+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0008s ]
+
+[ 2018-01-05T16:16:57+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0003s ]
+
+[ 2018-01-05T16:17:57+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:18:04+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:18:24+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:18:42+08:00 ] 223.104.17.218 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:39:53+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0004s ]
+
+[ 2018-01-05T16:39:53+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:39:58+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0004s ]
+
+[ 2018-01-05T16:39:58+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0003s ]
+
+[ 2018-01-05T16:40:02+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0006s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:40:02+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:40:56+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:41:01+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0009s ]
+
+[ 2018-01-05T16:41:01+08:00 ] 115.205.181.142 /Api/User/orderList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: D方法实例化没找到模型类Api\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+NOTIC: D方法实例化没找到模型类Home\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+
+[ 2018-01-05T16:42:19+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:43:00+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T16:48:24+08:00 ] 115.205.181.142 /Api/User/orderList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: D方法实例化没找到模型类Api\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+NOTIC: D方法实例化没找到模型类Home\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+
+[ 2018-01-05T16:48:24+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0009s ]
+
+[ 2018-01-05T17:00:44+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:00:45+08:00 ] 115.205.181.142 /Api/User/orderList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: D方法实例化没找到模型类Api\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+NOTIC: D方法实例化没找到模型类Home\Model\UserModel
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+
+[ 2018-01-05T17:00:45+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:01:30+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:01:32+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:01:58+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:03:33+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:03:40+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:06:44+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:06:46+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0005s ]
+
+[ 2018-01-05T17:06:46+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:06:48+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0011s ]
+
+[ 2018-01-05T17:06:48+08:00 ] 115.205.181.142 /Api/product/productList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+NOTIC: [2048] Declaration of Api\Controller\ProductController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /data/wwwroot/default/wesave/App/Api/Controller/ProductController.class.php 第 3 行.
+NOTIC: D方法实例化没找到模型类Api\Model\ProductModel
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Home\Model\ProductModel::_after_insert() should be compatible with Think\Model::_after_insert($data, $options) /data/wwwroot/default/wesave/App/Home/Model/ProductModel.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 2  [ RunTime:0.0002s ]
+
+[ 2018-01-05T17:07:26+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+
+[ 2018-01-05T17:11:37+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0004s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0006s ]
+
+[ 2018-01-05T17:11:37+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0004s ]
+
+[ 2018-01-05T17:11:44+08:00 ] 115.205.181.142 /Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW TABLES LIKE '%index' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web` [ RunTime:0.0003s ]
+SQL: SELECT `name`,`logo`,`ico`,`keywords`,`desc` FROM `web`  [ RunTime:0.0001s ]
+

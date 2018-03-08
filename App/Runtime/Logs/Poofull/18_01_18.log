@@ -1,0 +1,1960 @@
+[ 2018-01-18T00:05:01+08:00 ] 101.67.149.53 /poofull/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt6lkp-r1FQwFC4Elnl5djbg' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2018-01-18T00:05:03+08:00 ] 101.67.149.53 /poofull/cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+SQL: SELECT product.pic as product_pic,product.name as product_name,product.unit as unit,cart.id as id,cart.num as num,cart.price as price,cart.price_sum as price_sum,cart.num as num,cart.time as time,cart.product_id as product_id FROM `cart` INNER JOIN product ON cart.product_id = product.id  WHERE cart.wechat_id = 'oKxWbt6lkp-r1FQwFC4Elnl5djbg' ORDER BY cart.id desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt6lkp-r1FQwFC4Elnl5djbg'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 9 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2018-01-18T00:05:17+08:00 ] 101.67.149.53 /poofull/cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0004s ]
+SQL: SELECT product.pic as product_pic,product.name as product_name,product.unit as unit,cart.id as id,cart.num as num,cart.price as price,cart.price_sum as price_sum,cart.num as num,cart.time as time,cart.product_id as product_id FROM `cart` INNER JOIN product ON cart.product_id = product.id  WHERE cart.wechat_id = 'oKxWbt6lkp-r1FQwFC4Elnl5djbg' ORDER BY cart.id desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt6lkp-r1FQwFC4Elnl5djbg'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 9 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-01-18T00:21:28+08:00 ] 58.100.77.155 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+
+[ 2018-01-18T00:21:29+08:00 ] 58.100.77.155 /Poofull/wechat/oauth?code=001Aw3zS0qjnIW1bXxwS0I0kzS0Aw3zt&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty /data/wwwroot/default/wesave/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `user` SET `wechat_name`='方鑫',`wechat_pic`='http://wx.qlogo.cn/mmopen/SslY9kPcQ2Qibm7Vx9iaSuw0XgILZRuJucuzpciaBVU5YIYrxM9a1KicjibDheXzRs8S5zF5rDIG51K6aqYb8Y9bgI35UzsiczKpMp/132' WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA' [ RunTime:0.0014s ]
+
+[ 2018-01-18T00:21:29+08:00 ] 58.100.77.155 /index.php?m=Poofull&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2018-01-18T00:21:35+08:00 ] 58.100.77.155 /poofull/cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+SQL: SELECT product.pic as product_pic,product.name as product_name,product.unit as unit,cart.id as id,cart.num as num,cart.price as price,cart.price_sum as price_sum,cart.num as num,cart.time as time,cart.product_id as product_id FROM `cart` INNER JOIN product ON cart.product_id = product.id  WHERE cart.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY cart.id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 9 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-01-18T00:21:41+08:00 ] 58.100.77.155 /poofull/product/classify/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/075a6c027a30d5ad0c5874f940fca74b.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/075a6c027a30d5ad0c5874f940fca74b.php 第 11 行.
+NOTIC: [8] Undefined variable: method /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/075a6c027a30d5ad0c5874f940fca74b.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-01-18T00:21:49+08:00 ] 58.100.77.155 /poofull/cart/do_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+SQL: INSERT INTO `cart` (`wechat_id`,`product_id`,`price`,`num`,`price_sum`) VALUES ('oKxWbt7R3thOZ41Phpjj8POVIirA','29','30','1','30') [ RunTime:0.0003s ]
+
+[ 2018-01-18T00:21:52+08:00 ] 58.100.77.155 /poofull/cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+SQL: SELECT product.pic as product_pic,product.name as product_name,product.unit as unit,cart.id as id,cart.num as num,cart.price as price,cart.price_sum as price_sum,cart.num as num,cart.time as time,cart.product_id as product_id FROM `cart` INNER JOIN product ON cart.product_id = product.id  WHERE cart.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY cart.id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 9 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2018-01-18T00:22:10+08:00 ] 58.100.77.155 /poofull/order/do_adds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+SQL: SELECT product.name as name,cart.id as id,cart.product_id as product_id,cart.price as price,cart.num as num,cart.price_sum as price_sum FROM `cart` INNER JOIN product ON cart.product_id = product.id  WHERE cart.id IN ('140')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0003s ]
+SQL: INSERT INTO `order` (`wechat_id`,`product_id`,`price`,`name`,`address_id`,`num`,`price_sum`,`time`,`sn`) VALUES ('oKxWbt7R3thOZ41Phpjj8POVIirA','29','30','泰国猫山王榴莲','12','1','30','1516206130','H118061305057814') [ RunTime:0.0113s ]
+SQL: DELETE FROM `cart` WHERE cart.id IN ('140') [ RunTime:0.0002s ]
+
+[ 2018-01-18T00:22:10+08:00 ] 58.100.77.155 /Poofull/Wxpay/jsapi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: sn /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/0ce4b81fbe51e4f42a443719908f6846.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2018-01-18T00:22:11+08:00 ] 58.100.77.155 /Poofull/Wxpay/pay/?sn=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT SUM(price_sum) AS tp_sum FROM `order` WHERE `sn` = 'H118061305057814' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2018-01-18T00:22:16+08:00 ] 58.100.77.155 /Poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2018-01-18T00:22:18+08:00 ] 58.100.77.155 /poofull/cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+SQL: SELECT product.pic as product_pic,product.name as product_name,product.unit as unit,cart.id as id,cart.num as num,cart.price as price,cart.price_sum as price_sum,cart.num as num,cart.time as time,cart.product_id as product_id FROM `cart` INNER JOIN product ON cart.product_id = product.id  WHERE cart.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY cart.id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 9 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-01-18T00:22:21+08:00 ] 58.100.77.155 /poofull/product/classify/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/075a6c027a30d5ad0c5874f940fca74b.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/075a6c027a30d5ad0c5874f940fca74b.php 第 11 行.
+NOTIC: [8] Undefined variable: method /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/075a6c027a30d5ad0c5874f940fca74b.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2018-01-18T00:22:42+08:00 ] 58.100.77.155 /poofull/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-01-18T00:22:45+08:00 ] 58.100.77.155 /poofull/order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: status /data/wwwroot/default/wesave/App/Poofull/Controller/OrderController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+NOTIC: [8] Undefined index: product_id /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2018-01-18T00:22:58+08:00 ] 58.100.77.155 /poofull/order/index/status/400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '400' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+NOTIC: [8] Undefined index: product_id /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-01-18T00:22:59+08:00 ] 58.100.77.155 /poofull/order/index/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+NOTIC: [8] Undefined index: product_id /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2018-01-18T00:23:00+08:00 ] 58.100.77.155 /poofull/order/index/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '1' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-01-18T00:23:02+08:00 ] 58.100.77.155 /poofull/order/index/status/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '2' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-01-18T00:23:02+08:00 ] 58.100.77.155 /poofull/order/index/status/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0015s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '3' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2018-01-18T00:23:04+08:00 ] 58.100.77.155 /poofull/order/index/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+NOTIC: [8] Undefined index: product_id /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2018-01-18T00:23:06+08:00 ] 58.100.77.155 /poofull/order/index/status/400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '400' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+NOTIC: [8] Undefined index: product_id /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-01-18T00:23:11+08:00 ] 58.100.77.155 /poofull/order/sn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-01-18T00:23:11+08:00 ] 58.100.77.155 /Poofull/Wxpay/jsapi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: sn /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/0ce4b81fbe51e4f42a443719908f6846.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2018-01-18T00:23:11+08:00 ] 58.100.77.155 /Poofull/Wxpay/pay/?sn=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT SUM(price_sum) AS tp_sum FROM `order` WHERE `sn` = 'H118061305057814' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2018-01-18T00:23:17+08:00 ] 58.100.77.155 /Poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-01-18T00:23:20+08:00 ] 58.100.77.155 /poofull/product/page/id/249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `id` = '249' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d6f77b8d491589ee4875663846fbc4d7.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d6f77b8d491589ee4875663846fbc4d7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2018-01-18T00:23:21+08:00 ] 120.204.17.71 /poofull/product/classify/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-01-18T00:23:21+08:00 ] 61.151.178.164 /poofull/product/classify/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+
+[ 2018-01-18T00:23:26+08:00 ] 58.100.77.155 /poofull/product/page/id/249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `id` = '249' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d6f77b8d491589ee4875663846fbc4d7.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d6f77b8d491589ee4875663846fbc4d7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2018-01-18T00:23:34+08:00 ] 58.100.77.155 /poofull/order/do_del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: DELETE FROM `order` WHERE `sn` = 'H118061305057814' [ RunTime:0.0003s ]
+
+[ 2018-01-18T00:23:34+08:00 ] 58.100.77.155 /poofull/order/index/status/400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0004s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '400' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-01-18T00:23:45+08:00 ] 183.192.201.97 /poofull/order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: status /data/wwwroot/default/wesave/App/Poofull/Controller/OrderController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = null ORDER BY order.id asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2018-01-18T00:23:45+08:00 ] 58.100.77.155 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-01-18T00:23:47+08:00 ] 58.100.77.155 /poofull/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2018-01-18T00:23:49+08:00 ] 58.100.77.155 /poofull/order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: status /data/wwwroot/default/wesave/App/Poofull/Controller/OrderController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-01-18T00:23:53+08:00 ] 58.100.77.155 /poofull/order/index/status/400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '400' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-01-18T00:23:54+08:00 ] 58.100.77.155 /poofull/order/index/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-01-18T00:23:55+08:00 ] 58.100.77.155 /poofull/order/index/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '1' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-01-18T00:23:56+08:00 ] 58.100.77.155 /poofull/order/index/status/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '2' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-01-18T00:23:58+08:00 ] 58.100.77.155 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-01-18T00:23:59+08:00 ] 120.204.17.68 /poofull/order/index/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = null ORDER BY order.id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-01-18T00:23:59+08:00 ] 58.100.77.155 /poofull/product/classify/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `product_classify_id` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/075a6c027a30d5ad0c5874f940fca74b.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/075a6c027a30d5ad0c5874f940fca74b.php 第 11 行.
+NOTIC: [8] Undefined variable: method /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/075a6c027a30d5ad0c5874f940fca74b.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2018-01-18T00:24:00+08:00 ] 120.204.17.73 /poofull/order/index/status/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '1' AND order.wechat_id = null ORDER BY order.id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-01-18T00:24:01+08:00 ] 101.226.225.86 /poofull/order/index/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = null ORDER BY order.id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-01-18T00:24:12+08:00 ] 58.100.77.155 /poofull/product/page/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `id` = '30' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d6f77b8d491589ee4875663846fbc4d7.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d6f77b8d491589ee4875663846fbc4d7.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-01-18T00:24:20+08:00 ] 120.204.17.69 /poofull/product/page/id/249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+
+[ 2018-01-18T00:24:22+08:00 ] 101.226.33.223 /poofull/product/page/id/249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-01-18T00:24:27+08:00 ] 58.100.77.155 /poofull/order/do_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: INSERT INTO `order` (`wechat_id`,`product_id`,`price`,`address_id`,`name`,`num`,`price_sum`,`time`,`sn`) VALUES ('oKxWbt7R3thOZ41Phpjj8POVIirA','30','50','12','泰国金枕榴莲','1','50','1516206267','H118062677975184') [ RunTime:0.0003s ]
+
+[ 2018-01-18T00:24:27+08:00 ] 58.100.77.155 /Poofull/Wxpay/jsapi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sn /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/0ce4b81fbe51e4f42a443719908f6846.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2018-01-18T00:24:28+08:00 ] 58.100.77.155 /Poofull/Wxpay/pay/?sn=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT SUM(price_sum) AS tp_sum FROM `order` WHERE `sn` = 'H118062677975184' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2018-01-18T00:24:33+08:00 ] 58.100.77.155 /Poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000126s ]
+
+[ 2018-01-18T00:24:38+08:00 ] 58.100.77.155 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2018-01-18T00:24:40+08:00 ] 58.100.77.155 /poofull/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2018-01-18T00:25:12+08:00 ] 120.204.17.73 /poofull/product/page/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+
+[ 2018-01-18T00:25:14+08:00 ] 61.151.179.83 /poofull/product/page/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-01-18T00:25:49+08:00 ] 58.100.77.155 /poofull/order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: status /data/wwwroot/default/wesave/App/Poofull/Controller/OrderController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0006s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+NOTIC: [8] Undefined index: product_id /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-01-18T00:25:57+08:00 ] 58.100.77.155 /poofull/order/index/status/400
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.status = '400' AND order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+NOTIC: [8] Undefined index: product_id /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-01-18T00:25:58+08:00 ] 58.100.77.155 /poofull/order/index/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0005s ]
+SQL: SELECT address.city as address_city,address.phone as address_phone,address.address as address,address.name as address_name,product.name as product_name,product.pic as product_pic,order.sn as sn,order.express_code as express_code,order.id as id,order.name as name,order.express as express,order.time as time,order.price as price,order.num as num,order.price_sum as price_sum,order.status as status,order.msg as msg FROM `order` INNER JOIN address ON order.address_id = address.id INNER JOIN product ON order.product_id = product.id  WHERE order.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY order.id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 11 行.
+NOTIC: [8] Undefined index: product_id /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/de0664c3aa0a618e44784ab654592a63.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2018-01-18T00:26:00+08:00 ] 58.100.77.155 /poofull/cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0005s ]
+SQL: SELECT product.pic as product_pic,product.name as product_name,product.unit as unit,cart.id as id,cart.num as num,cart.price as price,cart.price_sum as price_sum,cart.num as num,cart.time as time,cart.product_id as product_id FROM `cart` INNER JOIN product ON cart.product_id = product.id  WHERE cart.wechat_id = 'oKxWbt7R3thOZ41Phpjj8POVIirA' ORDER BY cart.id desc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 9 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/ec7aaa18a90790d33356e54da8432ecd.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-01-18T00:26:03+08:00 ] 58.100.77.155 /poofull/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2018-01-18T00:26:05+08:00 ] 58.100.77.155 /poofull/user/address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `address` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA' AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/75377148f0f128b8d40605117fb0bb3a.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/75377148f0f128b8d40605117fb0bb3a.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-01-18T00:26:08+08:00 ] 58.100.77.155 /poofull/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2018-01-18T00:26:10+08:00 ] 58.100.77.155 /poofull/user/book
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/3b062df4b15832e1d8ddf6108b0af796.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/3b062df4b15832e1d8ddf6108b0af796.php 第 11 行.
+NOTIC: [8] Undefined variable: method /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/3b062df4b15832e1d8ddf6108b0af796.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2018-01-18T00:26:11+08:00 ] 58.100.77.155 /poofull/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt7R3thOZ41Phpjj8POVIirA' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2018-01-18T00:26:13+08:00 ] 58.100.77.155 /poofull/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2018-01-18T00:26:16+08:00 ] 58.100.77.155 /poofull/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000123s ]
+
+[ 2018-01-18T00:26:19+08:00 ] 58.100.77.155 /poofull/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2018-01-18T00:26:20+08:00 ] 58.100.77.155 /poofull/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-01-18T00:26:22+08:00 ] 58.100.77.155 /poofull/news/page/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `id` = '17' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 11 行.
+NOTIC: [8] Undefined variable: method /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2018-01-18T00:26:52+08:00 ] 61.151.218.119 /poofull/user/address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+
+[ 2018-01-18T00:27:05+08:00 ] 58.247.212.98 /poofull/user/address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+
+[ 2018-01-18T00:27:10+08:00 ] 120.204.17.69 /poofull/user/book
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-01-18T00:27:11+08:00 ] 61.129.8.203 /poofull/user/book
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+
+[ 2018-01-18T00:27:57+08:00 ] 58.100.77.155 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2018-01-18T00:28:00+08:00 ] 58.100.77.155 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-01-18T00:28:03+08:00 ] 58.100.77.155 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2018-01-18T00:28:06+08:00 ] 58.100.77.155 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-01-18T00:30:13+08:00 ] 36.23.218.74 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2018-01-18T00:30:13+08:00 ] 36.23.218.74 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2018-01-18T00:30:17+08:00 ] 36.23.218.74 /poofull/news/page/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `id` = '17' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 11 行.
+NOTIC: [8] Undefined variable: method /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2018-01-18T00:30:26+08:00 ] 36.23.218.74 /poofull/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt6lkp-r1FQwFC4Elnl5djbg' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2018-01-18T00:31:17+08:00 ] 183.192.201.97 /poofull/news/page/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE `id` = '17' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 11 行.
+NOTIC: [8] Undefined variable: method /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2018-01-18T00:31:19+08:00 ] 101.226.33.203 /poofull/news/page/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` WHERE `id` = '17' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 11 行.
+NOTIC: [8] Undefined variable: method /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/d830b261867fa17e09193ce68dedf31d.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2018-01-18T00:31:48+08:00 ] 36.23.218.74 /poofull
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE `status` = 2  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `product_classify` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `product_classify`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 9 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 10 行.
+NOTIC: [8] Undefined variable: web /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/b11bff3e4824e7ef23dc33eea9412e0f.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2018-01-18T00:31:50+08:00 ] 36.23.218.74 /poofull/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `wechat_id` = 'oKxWbt6lkp-r1FQwFC4Elnl5djbg' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/a4ffbe924eb016d55ac17e0d35db82eb.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2018-01-18T00:31:55+08:00 ] 36.23.218.74 /poofull/user/book
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: desc /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/3b062df4b15832e1d8ddf6108b0af796.php 第 10 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/3b062df4b15832e1d8ddf6108b0af796.php 第 11 行.
+NOTIC: [8] Undefined variable: method /data/wwwroot/default/wesave/App/Runtime/Cache/Poofull/3b062df4b15832e1d8ddf6108b0af796.php 第 346 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+

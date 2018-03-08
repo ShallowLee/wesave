@@ -1,0 +1,1 @@
+{"appid":"wxafe0c676420d5319","mch_id":"10011595","nonce_str":"IdE2mV3yiisqkO2S","prepay_id":"wx2018011800242881618594fb0174459758","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"8F200EB9917CEE8428B5FD4D4762F147","trade_type":"JSAPI"}
